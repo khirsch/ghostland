@@ -5,9 +5,16 @@ body {
 
 img {
   display: block;
+}
+
+#ghost {
   margin: 20vh auto;
   animation: bounce 1s infinite alternate;
   -webkit-animation: bounce 1s infinite alternate;
+}
+
+#git {
+  margin: auto;
 }
 
 @keyframes bounce {
