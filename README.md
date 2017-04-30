@@ -4,7 +4,7 @@
 
 ## Description
 
-This is the source code from my personal portfolio site, [Ghostland](http://ghost.land/).
+This is the source code for my personal portfolio site, [Ghostland](http://ghost.land/).
 
 ## Installation
 
