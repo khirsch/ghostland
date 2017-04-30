@@ -13,7 +13,7 @@ img {
 }
 
 #ghost {
-  margin: 20vh auto;
+  margin: 15vh auto;
   animation: bounce 1s infinite alternate;
   -webkit-animation: bounce 1s infinite alternate;
 }
