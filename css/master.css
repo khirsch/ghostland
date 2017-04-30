@@ -7,6 +7,11 @@ img {
   display: block;
 }
 
+.sample {
+  width: 100%;
+  margin: 5em auto;
+}
+
 #ghost {
   margin: 20vh auto;
   animation: bounce 1s infinite alternate;
