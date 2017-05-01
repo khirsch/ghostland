@@ -2,27 +2,40 @@
 <html>
   <head>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
-    <script src="js/jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
     <link rel="stylesheet" href="css/jquery.modal.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/skeleton.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/master.css" type="text/css" media="screen">
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.modal.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
     <meta charset="utf-8" name="viewport" content="width=device-width">
     <title>ghost.land</title>
   </head>
   <body>
+    <div id="the-woods" style="display:none;">
+      <img class="modal-image" src="images/the-woods.png" alt="The Woods">
+    </div>
+    <div id="verbatim" style="display:none;">
+      <img class="modal-image" src="images/verbatim.png" alt="Verbatim Books">
+    </div>
+    <div id="pdxbranch" style="display:none;">
+      <img class="modal-image" src="images/pdxbranch.png" alt="pdxBranch">
+    </div>
+    <div id="bus-gas" style="display:none;">
+      <img class="modal-image" src="images/bus-gas.png" alt="Bus Gas">
+    </div>
     <div class="container">
       <div class="one-third column">
-        <a href="https://github.com/khirsch/the-woods" target="_blank"><img class="sample" src="images/the-woods.png" alt="The Woods"></a>
-        <a href="https://github.com/khirsch/verbatim" target="_blank"><img class="sample" src="images/verbatim.png" alt="Verbatim Books"></a>
+        <a href="#the-woods" rel="modal:open"><img class="thumbnail" src="images/the-woods.png" alt="The Woods"></a>
+        <a href="#verbatim" rel="modal:open"><img class="thumbnail" src="images/verbatim.png" alt="Verbatim Books"></a>
       </div>
       <div class="one-third column">
         <a href="mailto:hello@ghost.land"><img id="ghost" src="images/ghostie-white.png" alt="Ghost"></a>
         <a href="http://github.com/khirsch" target="_blank"><img id="git" src="images/github.png" alt="GitHub"></a>
       </div>
       <div class="one-third column">
-        <a href="https://github.com/mlawson3691/branch-social" target="_blank"><img class="sample" src="images/pdxbranch.png" alt="pdxBranch"></a>
-        <a href="https://github.com/khirsch/bus-gas" target="_blank"><img class="sample" src="images/bus-gas.png" alt="Bus Gas"></a>
+        <a href="#pdxbranch" rel="modal:open"><img class="thumbnail" src="images/pdxbranch.png" alt="pdxBranch"></a>
+        <a href="#bus-gas" rel="modal:open"><img class="thumbnail" src="images/bus-gas.png" alt="Bus Gas"></a>
       </div>
     </div>
   </body>
