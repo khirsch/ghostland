@@ -10,6 +10,7 @@
   background-color: rgba(0,0,0,0.75);
   text-align: center;
 }
+
 .blocker:before{
   content: "";
   display: inline-block;
@@ -17,19 +18,21 @@
   vertical-align: middle;
   margin-right: -0.05em;
 }
+
 .blocker.behind {
   background-color: transparent;
 }
+
 .modal {
   display: inline-block;
   vertical-align: middle;
   position: relative;
   z-index: 2;
-  max-width: 500px;
+  max-width: 800px;
   box-sizing: border-box;
   width: 90%;
   background: #fff;
-  padding: 15px 30px;
+  padding: 15px 15px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -o-border-radius: 8px;
