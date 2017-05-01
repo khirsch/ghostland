@@ -24,6 +24,7 @@ Please send any questions or concerns to katrina.hirsch@gmail.com.
 
 * HTML
 * CSS (Skeleton)
+* JavaScript (jQuery)
 
 ### License
 
