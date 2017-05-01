@@ -7,9 +7,13 @@ img {
   display: block;
 }
 
-.sample {
+.thumbnail {
   width: 100%;
   margin: 7em auto;
+}
+
+.modal-image {
+  width: 100%;
 }
 
 #ghost {
