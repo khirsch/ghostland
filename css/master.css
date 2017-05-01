@@ -22,8 +22,9 @@ img {
   -webkit-animation: bounce 1s infinite alternate;
 }
 
-#git {
+#linkedin {
   margin: auto;
+  width: 45px;
 }
 
 @keyframes bounce {
