@@ -44,8 +44,7 @@ p {
 }
 
 .gallery-image {
-  width: 295px;
-  height: 165px;
+  width: 100%;
 }
 
 .modal-image {
