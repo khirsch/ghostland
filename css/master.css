@@ -1,5 +1,4 @@
 body {
-  background-color: #000;
   background-image: url('../images/background.jpg');
   color: #fff;
 }
@@ -20,11 +19,15 @@ p {
 }
 
 .header {
-  margin-bottom: 3em;
+  margin-bottom: 2.5em;
 }
 
-.footer {
-  margin-top: 3em;
+.column {
+  margin-bottom: 4%;
+}
+
+.column:nth-of-type(4) {
+  margin-left: 0;
 }
 
 .social {
@@ -32,7 +35,7 @@ p {
 }
 
 .social img {
-  margin: 0 .5em;
+  margin: 0 1em;
 }
 
 .modal {
@@ -41,7 +44,8 @@ p {
 }
 
 .gallery-image {
-  width: 100%;
+  width: 295px;
+  height: 165px;
 }
 
 .modal-image {
@@ -51,7 +55,7 @@ p {
 #ghost {
   width: 150px;
   display: block;
-  margin: 3em auto 0;
+  margin: 2.5em auto 0;
   animation: bounce 1s infinite alternate;
   -webkit-animation: bounce 1s infinite alternate;
 }
