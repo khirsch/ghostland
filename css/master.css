@@ -18,6 +18,15 @@ p {
   margin: 1em 0.5em 0;
 }
 
+a, a:visited, a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .header {
   margin-bottom: 2.5em;
 }
