@@ -79,11 +79,6 @@ a:hover {
   backface-visibility: hidden;
 }
 
-.thumbnail {
-  margin: 0;
-  height: 0px;
-}
-
 .modal-image {
   width: 100%;
 }
