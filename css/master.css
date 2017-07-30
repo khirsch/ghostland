@@ -41,6 +41,7 @@ a:hover {
 
 .column {
   margin-bottom: 4%;
+  overflow: hidden;
 }
 
 .column:nth-of-type(4) {
@@ -60,8 +61,27 @@ a:hover {
   border: 1px solid #fff;
 }
 
-.gallery-image {
-  width: 100%;
+.gallery-item img {
+  min-width: 100%;
+  max-width: 100%;
+  filter: brightness(20%);
+}
+
+.gallery-item img:hover {
+  transition: .5s;
+  filter: brightness(80%);
+}
+
+.gallery-item img, .gallery-item img:hover {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.thumbnail {
+  margin: 0;
+  height: 0px;
 }
 
 .modal-image {
