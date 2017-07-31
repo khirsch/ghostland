@@ -64,12 +64,12 @@ a:hover {
 .gallery-item img {
   min-width: 100%;
   max-width: 100%;
-  filter: brightness(40%);
+  filter: brightness(70%);
 }
 
 .gallery-item img:hover {
   transition: .5s;
-  filter: brightness(80%);
+  filter: brightness(100%);
 }
 
 .gallery-item img, .gallery-item img:hover {
