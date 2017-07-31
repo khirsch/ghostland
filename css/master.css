@@ -64,12 +64,12 @@ a:hover {
 .gallery-item img {
   min-width: 100%;
   max-width: 100%;
-  filter: brightness(30%);
+  filter: brightness(40%);
 }
 
 .gallery-item img:hover {
   transition: .5s;
-  filter: brightness(85%);
+  filter: brightness(80%);
 }
 
 .gallery-item img, .gallery-item img:hover {
@@ -106,5 +106,11 @@ a:hover {
   }
   to {
     transform: translateY(-15px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-item img {
+    filter: brightness(80%);
   }
 }
