@@ -52,6 +52,10 @@ a:hover {
   text-align: center;
 }
 
+.social a:hover {
+  text-decoration: none;
+}
+
 .social img {
   margin: 0 1em;
 }
