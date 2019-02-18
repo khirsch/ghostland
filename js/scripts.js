@@ -7,3 +7,5 @@ $(function() {
     return false;
   });
 });
+
+console.log('Hi! Hello! 👋');
