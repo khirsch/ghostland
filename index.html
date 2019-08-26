@@ -16,53 +16,73 @@
   <body>
 
     <!-- Main -->
-    <div class="header">
+    <header class="container">
       <img id="ghost" src="images/ghostie-white.png" alt="Ghost">
-    </div>
+      <p>Katrina Hirsch is a front end developer in Portland, OR.</p>
+      <p>She is also the co-founder of <a class="womxnhouse" href="https://womxnhouse.org/" target="_blank">Womxn House</a>.</p>
+    </header>
+
+    <section class="container">
+      <div class="row">
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#bomb" rel="modal:open">
+            <img src="images/bomb.png" alt="BOMB Magazine">
+          </a>
+        </div>
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#ogden" rel="modal:open">
+            <img src="images/ogden.png" alt="Ogden Marathon">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#the-woods" rel="modal:open">
+            <img src="images/the-woods.png" alt="The Woods">
+          </a>
+        </div>
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#verbatim" rel="modal:open">
+            <img src="images/verbatim.png" alt="Verbatim">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#bus-gas" rel="modal:open">
+            <img src="images/bus-gas.png" alt="Bus Gas">
+          </a>
+        </div>
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#pdxbranch" rel="modal:open">
+            <img src="images/pdxbranch.png" alt="pdxBranch">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#donut-guru" rel="modal:open">
+            <img src="images/donut-guru.png" alt="Donut Guru">
+          </a>
+        </div>
+        <div class="one-half column gallery-item">
+          <a class="thumbnail" href="#wildbook" rel="modal:open">
+            <img src="images/wildbook.png" alt="Wildbook">
+          </a>
+        </div>
+      </div>
+    </section>
 
     <div class="container">
-      <div class="one-third column gallery-item">
-        <a class="thumbnail" href="#the-woods" rel="modal:open">
-          <img src="images/the-woods.png" alt="The Woods">
-        </a>
-      </div>
-      <div class="one-third column gallery-item">
-        <a class="thumbnail" href="#verbatim" rel="modal:open">
-          <img src="images/verbatim.png" alt="Verbatim">
-        </a>
-      </div>
-      <div class="one-third column gallery-item">
-        <a class="thumbnail" href="#bus-gas" rel="modal:open">
-          <img src="images/bus-gas.png" alt="Bus Gas">
-        </a>
-      </div>
-      <div class="one-third column gallery-item">
-        <a class="thumbnail" href="#pdxbranch" rel="modal:open">
-          <img src="images/pdxbranch.png" alt="pdxBranch">
-        </a>
-      </div>
-      <div class="one-third column gallery-item">
-        <a class="thumbnail" href="#donut-guru" rel="modal:open">
-          <img src="images/donut-guru.png" alt="Donut Guru">
-        </a>
-      </div>
-      <div class="one-third column gallery-item">
-        <a class="thumbnail" href="#wildbook" rel="modal:open">
-          <img src="images/wildbook.png" alt="Wildbook">
-        </a>
-      </div>
-    </div>
-
-    <div class="footer">
       <div class="social">
-        <a href="https://www.linkedin.com/in/katrina-hirsch/" target="_blank">
-          <img src="images/linkedin.png" alt="LinkedIn">
-        </a>
         <a href="https://github.com/khirsch" target="_blank">
           <img src="images/github.png" alt="GitHub">
         </a>
-        <a href="https://behance.net/khirsch" target="_blank">
-          <img src="images/behance.png" alt="Mail">
+        <a href="https://www.linkedin.com/in/katrina-hirsch/" target="_blank">
+          <img src="images/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https:/instagram.com/luchsaugen" target="_blank">
+          <img src="images/instagram.png" alt="Instagram">
         </a>
         <a href="mailto:hello@ghost.land">
           <img src="images/mail.png" alt="Mail">
@@ -71,6 +91,32 @@
     </div>
 
     <!-- Modals -->
+    <div class="modal" id="bomb" style="display:none;">
+      <h3>BOMB Magazine</h3>
+      <h4>
+        <a href="https://bombmagazine.org/" target="_blank">www</a>
+      </h4>
+      <img class="modal-image" src="images/bomb.png" alt="BOMB Magazine">
+      <p>
+        Bomb is a quarterly magazine edited by artists and writers. It is composed, primarily, of interviews between creative people working in a variety of disciplines — visual art, literature, music, film, theater and architecture.<br><br>
+        Role: Front End Developer / QA Analyst<br>
+        Technologies: HTML, CSS, JavaScript
+      </p>
+    </div>
+
+    <div class="modal" id="ogden" style="display:none;">
+      <h3>Ogden Marathon</h3>
+      <h4>
+        <a href="https://www.ogdenmarathon.com/" target="_blank">www</a>
+      </h4>
+      <img class="modal-image" src="images/ogden.png" alt="Ogden Marathon">
+      <p>
+        The Ogden Marathon is produced by the GOAL Foundation, a nonprofit located in downtown Ogden, Utah.<br><br>
+        Role: Front End Developer<br>
+        Technologies: HTML, CSS, Sass, JavaScript, jQuery, Photoshop
+      </p>
+    </div>
+
     <div class="modal" id="the-woods" style="display:none;">
       <h3>The Woods</h3>
       <h4>
@@ -93,7 +139,7 @@
       <p>
         Verbatim is an online marketplace simulation that provides users with an inventory of books for purchase.<br><br>
         Role: Front End Developer / Designer<br>
-        Technologies: HTML, CSS, Ember.js, Handlebars.js
+        Technologies: Sketch, HTML, CSS, Ember.js, Handlebars.js
       </p>
     </div>
 
@@ -132,7 +178,7 @@
       <p>
         Donut Guru is a prototype for an app which will allow users to locate donut shops in Portland, OR based on a variety of criteria, such as location and price range.<br><br>
         Role: Designer<br>
-        Technologies: Sketch
+        Technologies: Sketch, InVision
       </p>
     </div>
 
