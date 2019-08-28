@@ -30,10 +30,6 @@ a, a:visited, a:hover {
   margin: 0 0.5em;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 header {
   margin: 2.5em !important;
   text-align: center;
@@ -110,6 +106,7 @@ header p {
 .gallery-item img:hover {
   transition: .5s;
   filter: brightness(100%);
+  cursor: url('../images/eyes.png'), auto;
 }
 
 .gallery-item img, .gallery-item img:hover {
@@ -121,6 +118,10 @@ header p {
 
 .modal-image {
   width: 100%;
+}
+
+.hidden {
+  display: none;
 }
 
 #ghost {
